@@ -1,0 +1,60 @@
+body {
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", Arial, sans-serif;
+    background-image: url("/images/BKG.png");
+    background-size: cover;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.gameContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: solid 1px gray;
+    color: white;
+    height: 600px;
+    width: 700px;
+    padding-top: 140px;
+}
+
+.headings h1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color: goldenrod;
+    font-size: 60px;
+    font-weight: bolder;
+    line-height: 20px;
+    padding-left: 20px;
+}
+
+.headings p {
+    font-size: 30px;
+}
+
+.btns {
+    display: flex;
+    flex-direction: column;
+}
+
+.btn {
+    color: #016f32;
+    width: 200px;
+    height: 50px;
+    background: goldenrod;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-weight: bolder;
+    border: none;
+    border-radius: 2px;
+    margin-bottom: 20px;
+    margin-top: 2px;
+    cursor: pointer;
+}
